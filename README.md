@@ -24,6 +24,8 @@ Building backends with **Ruby on Rails** — and the tooling that makes everyday
   <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
   <img alt="Shell" src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
 </p>
@@ -39,10 +41,6 @@ Building backends with **Ruby on Rails** — and the tooling that makes everyday
 | [homebrew-tap](https://github.com/VSN2015/homebrew-tap) | Homebrew formulae for my tools — `brew tap vsn2015/tap` |
 
 #### 📈 Stats
-
-<p align="center">
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=VSN2015&theme=tokyonight&hide_border=true" />
-</p>
 
 <p align="center">
   <img alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=VSN2015&theme=tokyo-night&hide_border=true&area=true" />
