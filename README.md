@@ -8,6 +8,7 @@ Building backends with **Ruby on Rails** — and the tooling that makes everyday
 - ⚙️ I use daily: `.rb`, `.erb`, `.sql`, `.sh`, `.yml`, `.js`
 - 🌍 I'm mostly active within the **Ruby on Rails community**
 - 🛠️ I build developer tools: typed params contracts, plug-and-play concerns, per-worktree dev environments
+- 🤖 I use AI day by day to build my workflows — agentic coding, gem-aware code review, custom Claude Code plugins
 - 📚 I curate [best_rails_gem](https://github.com/VSN2015/best_rails_gem) — a field guide to production-grade Rails gems
 - 💬 `ping` me about **ruby**, **rails**, **gems**, **developer tooling**, **layered design**
 
@@ -40,8 +41,11 @@ Building backends with **Ruby on Rails** — and the tooling that makes everyday
 #### 📈 Stats
 
 <p align="center">
-  <img height="165" alt="VSN2015's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=VSN2015&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VSN2015&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=VSN2015&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=VSN2015&theme=tokyo-night&hide_border=true&area=true" />
 </p>
 
 ---
