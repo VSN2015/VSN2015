@@ -1,6 +1,6 @@
 ### Hello there 👋
 
-#### A Ruby on Rails Engineer by day ☼ and an open-source toolsmith by night ☾
+#### A Ruby on Rails Engineer by day ☀️ and an open-source toolsmith by night 🌙
 
 Software Engineer based in Việt Nam 🇻🇳<br>
 Building backends with **Ruby on Rails** — and the tooling that makes everyday Rails work faster and safer<br>
