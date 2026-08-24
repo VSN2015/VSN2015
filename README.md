@@ -2,8 +2,8 @@
 
 #### A Ruby on Rails Engineer by day ☼ and an open-source toolsmith by night ☾
 
-Software Engineer based in Việt Nam 🇻🇳;<br>
-Building backends with **Ruby on Rails** — and the tooling that makes everyday Rails work faster and safer;<br>
+Software Engineer based in Việt Nam 🇻🇳<br>
+Building backends with **Ruby on Rails** — and the tooling that makes everyday Rails work faster and safer<br>
 
 - ⚙️ I use daily: `.rb`, `.erb`, `.sql`, `.sh`, `.yml`, `.js`
 - 🌍 I'm mostly active within the **Ruby on Rails community**
