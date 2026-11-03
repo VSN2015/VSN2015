@@ -4,9 +4,12 @@ on:
   schedule:
     - cron: "17 2 * * *" # daily, 02:17 UTC
   workflow_dispatch:
+  push:
+    branches: [master]
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   refresh:
@@ -31,3 +34,8 @@ jobs:
           git add contribution-chart.svg
           git commit -m "chore: refresh contribution chart"
           git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
+
+      - name: Reset the 60-day scheduled-workflow disable timer
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api --method PUT "repos/${GITHUB_REPOSITORY}/actions/workflows/contribution-chart.yml/enable"
