@@ -1,0 +1,33 @@
+name: Refresh contribution chart
+
+on:
+  schedule:
+    - cron: "17 2 * * *" # daily, 02:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Fetch chart from ghchart (no proxy timeout in CI)
+        run: |
+          mkdir -p out
+          curl -sSf --retry 3 --retry-delay 5 --max-time 120 \
+            "https://ghchart.rshah.org/7aa2f7/VSN2015" -o out/contribution-chart.svg
+          grep -q "<svg" out/contribution-chart.svg
+
+      - name: Publish SVG to output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd out
+          git init -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add contribution-chart.svg
+          git commit -m "chore: refresh contribution chart"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
