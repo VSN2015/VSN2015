@@ -32,19 +32,26 @@ Building backends with **Ruby on Rails** — and the tooling that makes everyday
 
 #### 🚀 Things I've built
 
-| Project | What it does |
-| :-- | :-- |
-| [permittable](https://github.com/VSN2015/permittable) | Typed, validated params contracts for Rails controllers + schema-drift guard |
-| [concerns_on_rails](https://github.com/VSN2015/concerns_on_rails) | Plug-and-play ActiveSupport concerns for Rails models and controllers |
-| [worktree-kit](https://github.com/VSN2015/worktree-kit) | `wt` — run commands and app servers per git worktree, with per-worktree DB/Redis isolation |
-| [gem-docs-review](https://github.com/VSN2015/gem-docs-review) | Claude Code plugin: offline gem-doc cache + gem-aware Ruby/Rails diff & PR review |
-| [homebrew-tap](https://github.com/VSN2015/homebrew-tap) | Homebrew formulae for my tools — `brew tap vsn2015/tap` |
+| Project | What it does | Quick install |
+| :-- | :-- | :-- |
+| [permittable](https://github.com/VSN2015/permittable) | Typed, validated params contracts for Rails controllers + schema-drift guard | `gem 'permittable'` |
+| [concerns_on_rails](https://github.com/VSN2015/concerns_on_rails) | Plug-and-play ActiveSupport concerns for Rails models and controllers | `gem 'concerns_on_rails'` |
+| [worktree-kit](https://github.com/VSN2015/worktree-kit) | `wt` — run commands and app servers per git worktree, with per-worktree DB/Redis isolation | `brew install vsn2015/tap/worktree-kit` |
+| [gem-docs-review](https://github.com/VSN2015/gem-docs-review) | Claude Code plugin: offline gem-doc cache + gem-aware Ruby/Rails diff & PR review | `/plugin marketplace add VSN2015/gem-docs-review` |
 
 #### 📈 Stats
 
 <p align="center">
   <a href="https://github.com/VSN2015"><img alt="Contribution chart" src="https://ghchart.rshah.org/7aa2f7/VSN2015" /></a>
 </p>
+
+#### ⚡ Quick try
+
+```bash
+# Take my developer tools for a spin
+brew tap vsn2015/tap && brew install worktree-kit   # per-worktree dev environments
+bundle add permittable concerns_on_rails            # Rails gems
+```
 
 ---
 
