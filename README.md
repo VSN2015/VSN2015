@@ -42,7 +42,7 @@ Building backends with **Ruby on Rails** — and the tooling that makes everyday
 #### 📈 Stats
 
 <p align="center">
-  <a href="https://github.com/VSN2015"><img alt="Contribution chart" src="https://ghchart.rshah.org/7aa2f7/VSN2015" /></a>
+  <a href="https://github.com/VSN2015"><img alt="Contribution chart" src="https://raw.githubusercontent.com/VSN2015/VSN2015/output/contribution-chart.svg" /></a>
 </p>
 
 #### ⚡ Quick try
